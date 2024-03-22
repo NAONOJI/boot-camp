@@ -1,0 +1,123 @@
+.w-50px {
+  width: 50px;
+}
+
+.w-50-percent {
+  width: 50%;
+}
+
+.h-500px{
+  height: 500px;
+}
+
+.h-25-percent{
+  height: 25%;
+}
+
+.h-1000px{
+  height: 1000px;
+}
+
+.bg-sample{
+  height: 500px;
+  background-image: url(../images/dot.jpg);
+}
+
+.no-repeat{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+}
+
+.repeat-x{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat-x;
+}
+
+.repeat-y{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat-y;
+}
+
+.repeat{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat;
+}
+
+.cover{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contain{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-200px-300px {
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 300px;
+}
+
+.left-top{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.center-top{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.right-top{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.left-center{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.center-center{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.right-center{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.left-bottom{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.center-bottom{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.right-bottom{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.fixed{
+  background-image: url(../images/dot.jpg);
+  background-attachment: fixed;
+}
+.scroll{
+  background-image: url(../images/dot.jpg);
+  background-attachment: scroll;
+}
+
+.shorthand{
+  background: darkred url(../images/cat3.png) no-repeat fixed bottom;
+}

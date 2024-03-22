@@ -1,0 +1,13 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+.empty-class-show {
+  empty-cells: show;
+}
+
+.empty-class-hide {
+  empty-cells: hide;
+}
+
+.spacing-15px-30px

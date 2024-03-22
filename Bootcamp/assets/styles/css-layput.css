@@ -1,0 +1,68 @@
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.none{
+  float: none;
+}
+
+.clear-left{
+  clear: left;
+}
+.clear-right{
+  clear: right;
+}
+.clear-both{
+  clear: both;
+}
+.clear-nont{
+  clear: nont;
+}
+
+.static{
+  position: static;
+  left: 50%;
+}
+.relative{
+  position: relative;
+  left: -50%;
+}
+.absolute{
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+}
+.fixed{
+  bottom: 0;
+  right: 0;
+}
+
+.inline{
+  display: inline;
+  width: 50%;
+  height: 100px;
+}
+.block{
+  display: block;
+  width: 50%;
+  height: 100px;
+}
+.inline-block{
+  display: inline-block;
+  width: 50%;
+  height: 100px;
+}
+
+
+.parent{
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}

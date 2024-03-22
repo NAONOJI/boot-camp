@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title>HTML Forms</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <form action=""method="">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" reuired placeholder="@usename">
+    <label for="password">password</label>
+    <input type="password" name="password" id="password" required placeholder="you password here">
+    <input type="submit" value="Login" name="btn_sumbit">
+
+  </form>
+
+  <hr>
+  <h1>Other Details</h1>
+  <form action=""method"">
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" required min="18" max="80">
+
+    <br><br>
+    <label for="birthday">Birthday</label>
+    <input type="date" name="birthday" id="birthday">
+
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+
+    <br><br>
+    <label for="bio">Enter Bio / Description</label>
+    <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+    <br><br>
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" name="femaile" id="femaile" value="femaile">
+    <label for="femaile">Femaile</label>
+
+    <br><br>
+    <label for="hobby">Select your hobby/ies:</label>
+    <input type="checkbox" name="hobby" id="hiking" value="hiking">
+    <label for="hiking">Hiking</label>
+
+    <input type="checkbox" name="hobby" id="hiking" value="baiking">
+    <label for="hiking">biking</label>
+
+    <input type="checkbox" name="hobby" id="fishing" value="fishing">
+    <label for="fishing">fishing</label>
+
+    <br><br>
+    <label for="device">Select a device</label>
+    <select name="device" id="device">
+      <option value="mobile">Mobile phone</option>
+      <option value="tablet">Tablet</option>
+      <option value="laptop">laptope</option>
+    </select>
+    <br><br>
+
+    <label for="device">Select a device</label>
+    <select name="device" id="device" multiple>
+      <option value="mobile">Mobile phone</option>
+      <option value="tablet">Tablet</option>
+      <option value="laptop">laptope</option>
+    </select>
+    
+    <br><br>
+    <label for="profile-photo">Profile Photo</label>
+    <input type="file" name="profile_photo" id="profile-photo">
+    <br><br>
+
+    <button type="submit" name="btn_login">Login</button>
+
+
+  </form>
+</body>
+</html>

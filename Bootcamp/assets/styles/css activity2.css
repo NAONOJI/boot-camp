@@ -1,0 +1,27 @@
+.profile-1 {
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px black;
+  float: left;
+  width: 50%;
+}
+
+.profile-2 {
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 10px;
+  float: right;
+  width: -50%;
+}
+
+/* common */
+.img {
+  object-fit: cover;
+  margin-right: 0;
+}
+
+h2 {
+  padding-left: 30px;
+}
+p {
+  padding-left: 30px;
+}

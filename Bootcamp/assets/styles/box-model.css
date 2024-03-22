@@ -1,0 +1,118 @@
+div {
+  width: 100%;
+  height: 30px;
+  border: 2px solid darkblue;
+}
+
+.blue{
+  background-color: darkblue;
+}
+
+.m-15px {
+  margin: 15px;
+}
+.m-15px-20px {
+  margin: 15px 20px;
+}
+
+.m-15px-20px-25px {
+  margin: 15px 20px 25px;
+}
+
+.m-15px-20px-25px-30px {
+  margin: 5px 20px 25px 30px;
+}
+
+.margin-top{
+  margin-top: 15px;
+}
+.margin-right
+  margin-right: 15px;
+}
+.margin-left{
+  margin-left: 15px;
+}
+.margin-bottom{
+  margin-botoom: 15px;
+}
+
+.p-15{
+  padding: 15px;
+}
+.p-15-30{
+  padding: 15px 30px;
+}
+.p-15-30-40{
+  padding: 15px 30px 40px;
+}
+.p-15-30-40-50{
+  padding: 15px 30px 40px 50px;
+}
+.top-15{
+  padding-top: 15px;
+}
+.right-15{
+  padding-right: 15px;
+}
+.left-15{
+  padding-left: 15px;
+}
+.bottom-15{
+  padding-bottom: 15px;
+}
+
+.solid{
+  border: 5px solid tomato;
+}
+.dotted{
+  border: 5px dotted tomato;
+}
+.dashed{
+  border: 5px dashed tomato;
+}
+.groove{
+  border: 5px groove tomato;
+}
+.double{
+  border: 5px double tomato;
+}
+.ridge{
+  border: 5px ridge tomato;
+}
+.inset{
+  border: 5px inset tomato;
+}
+.outset{
+  border: 5px outset tomato;
+}
+.radius{
+  border: 5px solid tomato;
+  border-radius: 50px;
+}
+
+.top{
+  border-top: 3px solid black;
+}
+.right{
+  border-right: 3px solid black;
+}
+.left{
+  border-left: 3px solid black;
+}
+.bottom{
+  border-bottom: 3px solid black;
+}
+
+.scroll{
+  overflow: scroll;
+}
+
+.hide{
+  overflow: hidden;
+}
+
+.box-shadow{
+  box-shadow: 5px 5px 6px 10px darkslategray;
+}
+
+.text-aligh

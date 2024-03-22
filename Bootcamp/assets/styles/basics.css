@@ -1,0 +1,41 @@
+* {
+  border: 1px dotted darkblue;
+}
+
+h2 {
+  color:white;
+  background-color: seagreen;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#par-1 {
+  background-color: black;
+  color: white;
+  font-style: italic;
+
+}h3 {
+  color: red;
+}
+
+h3 {
+  color: blue;
+}
+
+h4.style-1 {
+  color: darkblue;
+}
+
+h4 {
+  color: orange;
+}
+
+ul li {
+  color: darkgreen;
+}
+
+.list-style-1 li{
+  font-style: italic;
+}
